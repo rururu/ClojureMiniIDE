@@ -1,0 +1,11 @@
+{:paths ["src"]
+
+ :deps {org.clojure/clojure {:mvn/version "1.12.3"}
+        io.github.clojure/tools.build {:mvn/version "0.10.11"}
+        ru.clojure/ClojureMiniIDE {:local/root "lib/ClojureMiniIDE-1.0.jar"}
+        com.formdev/flatlaf {:mvn/version "3.6.2"}}
+
+ :aliases
+ {:build {:ns-default build
+          :deps {io.github.clojure/tools.build {:mvn/version "0.10.11"}}}}}
+
