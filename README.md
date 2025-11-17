@@ -25,7 +25,7 @@ $ run.bat        # Windows
 
 ### Lesson 1. Load namespace file and evaluate function from it
 
-![Lesson1](https://www.youtube.com/watch?v=rsOQ28tGRRY)
+[![Lesson1](grndiamd.gif)](https://www.youtube.com/watch?v=rsOQ28tGRRY)
 
 ## License
 
