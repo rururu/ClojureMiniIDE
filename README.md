@@ -21,6 +21,12 @@ $ cd <some root folder>
 $ ./run.sh       # Linux, MacOS
 $ run.bat        # Windows
 ```
+## Video Lessons
+
+### Lesson 1. Load namespace file and evaluate function from it
+
+[Watch the video](doc/Lesson1.mp4)
+
 ## License
 
 Copyright © 2025 Ruslan Sorokin
