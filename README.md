@@ -12,7 +12,7 @@ $ cd <some root folder>
 $ java -jar ClojureMiniIDE-0.1.0.jar # Linux, MacOS, Windows
 ```
 
-### Variant 1 
+### Variant 2
 
 #### Needs clojure directory and lib directory with it's content in a root folder
 
