@@ -25,7 +25,7 @@ $ run.bat        # Windows
 
 ### Lesson 1. Load namespace file and evaluate function from it
 
-file:doc/Lesson1.mp4
+![](doc/Lesson1.mp4)
 
 ## License
 
