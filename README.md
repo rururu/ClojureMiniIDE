@@ -24,12 +24,9 @@ $ run.bat        # Windows
 ## Video Lessons
 
 ### Lesson 1. Load namespace file and evaluate function from it
-```html
-<video controls>
-  <source src="doc/Lesson1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```
+
+file:doc/Lesson1.mp4
+
 ## License
 
 Copyright © 2025 Ruslan Sorokin
