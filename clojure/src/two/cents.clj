@@ -21,6 +21,7 @@
   (dosync (ref-set r val)))
 
 (defn twocents []
+  ;; Simple calaulator
   (let [temp-text (JTextField.)
         get-text #(.getText temp-text)
         get-number #(if (empty? (get-text))
