@@ -1,6 +1,8 @@
 # ClojureMiniIDE
 A minimalistic integrated development environment for the Clojure programming language.
 
+![screenshot](1.png)
+
 ## Special Features
 
 1. **Program.** 
