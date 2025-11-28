@@ -1,25 +1,20 @@
 ;; core.clj
 (ns ru.triar.core
-  (:import
-    javax.swing.JFrame
-    javax.swing.JLabel
-    javax.swing.JTextField
-    javax.swing.JButton
-    java.awt.event.ActionListener
-    java.awt.GridLayout)
   (:require 
-    [ru.triar.gui :as gi]))
+    [ru.triar.gui :as gi]
+    [ru.triar.logic :as lg]))
 
 (defn triar []
-  (let [calc #()]
-    (doto (JFrame. "Triangle Area")
-      (gi/add-label "Triangle sides:")
-      (gi/add-text-field "a")
-      (gi/add-text-field "b")
-      (gi/add-text-field "c")
-      (gi/add-label "Triangle area:")
-      (gi/add-button "calculate area" calc)
-      (gi/add-text-field "area")
-      (.setLayout (new GridLayout 7 1 4 4))
-      (.setSize 250 300)
-      (.setVisible true))))
+  (let [f (gi/jframe-grid "Triangle Area" 7 1 4 16 200 300)
+        _ (gi/add-label f "Triangle sides:")
+        a (gi/add-text-field f "a")
+        b (gi/add-text-field f "b")
+        c (gi/add-text-field f "c")
+        _ (gi/add-label f "Triangle area:")
+        _ (gi/add-button f "calculate area"
+            (fn[_](lg/calc-area 
+                    (.getText a)
+                    (.getText b)
+                    (.getText c))))
+        r (gi/add-text-field f "area")]
+      (.setVisible f true)))

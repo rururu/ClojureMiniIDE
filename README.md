@@ -23,22 +23,21 @@ saves them, and loads them in the desired order.
 
 ### Variant 1 
 
-#### Needs only clojure directory in a root folder
-
 ```shell
 $ cd <some root folder>
 $ java -jar ClojureMiniIDE-0.1.0.jar # Linux, MacOS, Windows
 ```
+Needs only clojure directory and ClojureMiniIDE-0.1.0.jar in the root folder.
 
 ### Variant 2
-
-#### Needs clojure directory and lib directory with it's content in a root folder
 
 ```shell
 $ cd <some root folder>
 $ ./run.sh       # Linux, MacOS
 $ run.bat        # Windows
 ```
+Needs clojure directory, lib directory with it's content and ClojureMiniIDE-0.1.0.jar in the root folder
+
 ## Video Lessons
 
 ### Lesson 1. Load namespace file and evaluate function from it
