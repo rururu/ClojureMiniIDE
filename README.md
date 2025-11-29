@@ -41,7 +41,9 @@ Needs clojure directory, lib directory with it's content and ClojureMiniIDE-0.1.
 ## Video Lessons
 
 [Lesson 1. Creating of a program file structure](https://www.youtube.com/watch?v=vPH-KzR2LiI)
+
 [Lesson 2. Writing  a program](https://www.youtube.com/watch?v=4044rY_TG5A)
+
 [Lesson 3. Debugging  a program](https://www.youtube.com/watch?v=nnIGX-z1Qck)
 
 ## License
