@@ -1,6 +1,6 @@
 {:paths ["src" "clojure/src"]
 
- :deps {org.clojure/clojure {:mvn/version "1.12.3"}
+ :deps {org.clojure/clojure {:mvn/version "1.12.4"}
         io.github.clojure/tools.build {:mvn/version "0.10.11"}
         ru.clojure/ClojureMiniIDE {:local/root "lib/ClojureMiniIDE.jar"}}
 

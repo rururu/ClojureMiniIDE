@@ -21,22 +21,18 @@ saves them, and loads them in the desired order.
 
 ## Usage
 
-### Variant 1 
+Put into a some directory:
+
+- clojure folder,
+- lib folder,
+- Funcall_History.txt file,
+- run.sh file.
 
 ```shell
-$ cd <some root folder>
-$ java -jar ClojureMiniIDE-0.1.0.jar # Linux, MacOS, Windows
-```
-Needs only clojure directory and ClojureMiniIDE-0.1.0.jar in the root folder.
-
-### Variant 2
-
-```shell
-$ cd <some root folder>
+$ cd <some directory>
 $ ./run.sh       # Linux, MacOS
 $ run.bat        # Windows
 ```
-Needs clojure directory, lib directory with it's content and ClojureMiniIDE-0.1.0.jar in the root folder
 
 ## Video Lessons
 
@@ -48,7 +44,7 @@ Needs clojure directory, lib directory with it's content and ClojureMiniIDE-0.1.
 
 ## License
 
-Copyright © 2025 Ruslan Sorokin
+Copyright © 2025-2026 Ruslan Sorokin
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
