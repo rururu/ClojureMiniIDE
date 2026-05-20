@@ -26,6 +26,7 @@ Put into a some directory:
 - clojure folder,
 - lib folder,
 - Funcall_History.txt file,
+- ConstructPrefixces.txt file,
 - run.sh file.
 
 ```shell
@@ -33,6 +34,14 @@ $ cd <some directory>
 $ ./run.sh       # Linux, MacOS
 $ run.bat        # Windows
 ```
+
+## Construct prefixces
+
+To create separate windows for functions and other program elements, the namespace file is divided into sections. 
+A separate section is created for a program element whose name begins with a prefix from the ConstructPrefixes.txt file. 
+Initially, it contains the prefixes "ns" and "def." 
+If your programming environment contains other constructs, 
+add the corresponding prefixes to separate lines in this file.
 
 ## Video Lessons
 
