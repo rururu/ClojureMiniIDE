@@ -1,7 +1,7 @@
 # ClojureMiniIDE
 A minimalistic integrated development environment for the Clojure programming language.
 
-_There is also an edition [ClojureFxMiniIDE](https://github.com/rururu/ClojureFxMiniIDE) for the Clojure wrapper of JavaFX library [cljfx](https://github.com/cljfx/cljfx)and edition [HumbleUIMiniIDE][(https://github.com/rururu/HumbleUIMiniIDE) for the Clojure GUI library [HumbleUI](https://github.com/HumbleUI/HumbleUI/tree/main)._
+_There is also an edition [ClojureFxMiniIDE](https://github.com/rururu/ClojureFxMiniIDE) for the Clojure wrapper of JavaFX library [cljfx](https://github.com/cljfx/cljfx)and edition [HumbleUIMiniIDE](https://github.com/rururu/HumbleUIMiniIDE) for the Clojure GUI library [HumbleUI](https://github.com/HumbleUI/HumbleUI/tree/main)._
 
 ![screenshot](1.png)
 
