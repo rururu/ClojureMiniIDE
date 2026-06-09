@@ -1,3 +1,3 @@
 chcp 65001
 
-clj -M:run-ide
+java -cp lib\* ru.clojure.minide.ClojureMiniIDE

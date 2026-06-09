@@ -1,3 +1,6 @@
+(twocents)
+(in-ns 'two.cents)
+(in-ns 'ru.triar.core)
 (triar)
 (in-ns 'ru.triar.core)
 (triar)

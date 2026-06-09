@@ -23,7 +23,7 @@ saves them, and loads them in the desired order.
 
 ## Prerequisites
 
-On your machine must be installed Java and [Clojure CLI](https://clojure.org/reference/clojure_cli)
+On your machine must be installed Java
 
 ## Usage
 
@@ -31,14 +31,12 @@ Put into a some directory:
 
 - clojure folder,
 - lib folder,
-- deps.edn file,
 - Funcall_History.txt file,
 - ConstructPrefixces.txt file,
 - run* files.
 
 ```shell
 $ cd <some directory>
-$ ./run_clojure_server.sh
 $ ./run.sh       # Linux, MacOS
 $ run.bat        # Windows
 ```

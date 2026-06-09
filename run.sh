@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-clj -M:run-ide
-
-
-
+java -cp lib/'*' ru.clojure.minide.ClojureMiniIDE
