@@ -1,0 +1,1 @@
+src:/home/ru/.m2/repository/com/formdev/flatlaf/3.6.2/flatlaf-3.6.2.jar:/home/ru/.m2/repository/org/clojure/clojure/1.12.4/clojure-1.12.4.jar:/home/ru/clojure/ClojureMiniIDE/lib/ClojureTabImpl.jar:/home/ru/.m2/repository/org/clojure/core.specs.alpha/0.4.74/core.specs.alpha-0.4.74.jar:/home/ru/.m2/repository/org/clojure/spec.alpha/0.5.238/spec.alpha-0.5.238.jar

@@ -1,11 +1,20 @@
-{:paths ["src" "clojure/src"]
-
- :deps {org.clojure/clojure {:mvn/version "1.12.4"}
-        io.github.clojure/tools.build {:mvn/version "0.10.11"}
-        ru.clojure/ClojureMiniIDE {:local/root "lib/ClojureMiniIDE.jar"}
-        com.formdev/flatlaf {:mvn/version "3.6.2"}}
-
+{:deps 
+ {org.clojure/clojure {:mvn/version "1.12.4"}
+  ru.clojure.plugins/ClojureTabImpl {:local/root "lib/ClojureTabImpl.jar"}
+  com.formdev/flatlaf {:mvn/version "3.6.2"}}
  :aliases
- {:build {:ns-default build
-          :deps {io.github.clojure/tools.build {:mvn/version "0.10.11"}}}}}
+ {:repl-server
+  {:exec-fn clojure.core.server/start-server
+   :exec-args {:name "repl-server"
+               :port 5555
+               :accept clojure.core.server/repl
+               :server-daemon false}}
+ :stop-server             
+ {:exec-fn clojure.core.server/stop-server
+  :exec-args {:name "repl-server"}}
+ :run-ide
+ {:main-opts ["-e" "(ru.clojure.plugins.impl.ClojureTabImpl/main (into-array String []))"]}}}
+ 
+  
+
 

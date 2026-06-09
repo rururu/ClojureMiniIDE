@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java -Dswing.defaultlaf=com.formdev.flatlaf.FlatLightLaf -cp lib/'*' ru.clojure.minide.ClojureMiniIDE
+clj -J-Dswing.defaultlaf=com.formdev.flatlaf.FlatLightLaf -M:run-ide

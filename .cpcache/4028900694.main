@@ -1,0 +1,2 @@
+-e
+(ru.clojure.plugins.impl.ClojureTabImpl/main (into-array String []))
